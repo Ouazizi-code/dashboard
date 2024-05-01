@@ -1,0 +1,260 @@
+/* global rules */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0f172a;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* end global rules */
+
+
+
+
+
+.container { /* this container hold all content in the body */
+    margin: auto;
+    /*background-color: antiquewhite;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* start styling the header */
+.header {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    height: 100px;
+    /*background-color: antiquewhite;*/
+}
+
+.logo {
+    /*background-color: aqua;*/
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+    width: 30%;
+    text-align: start;
+    color: rgb(192, 133, 85);
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    
+}
+
+.links a{
+    color: #ffffffdf;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    background-color: blue;*/
+    display: none;
+}
+
+
+/* start styling the content section */
+
+.main-content {
+    margin-top: 100px;
+    height: calc(100vh - 50px);
+    background-color:#cbd5e1;
+    display: flex;
+    
+    color: #0f172a;
+    border-radius: 10px;
+}
+
+
+.dash-title {
+    color: #222867;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start styling the footer */
+
+.footer {
+    background-color: rgba(157, 121, 121, 0);
+    margin-top: 100px;
+    color: aliceblue;
+}
+
+.ouazizi-brand {
+    width: 100%;
+    display: flex;
+}
+
+.ouazizi-brand .ouazizi-logo {
+    width: 40%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.ouazizi-brand .ouazizi-logo .big-o {
+    color: rgba(255, 166, 0, 0.893);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    background-color: rgba(6, 40, 70, 0.803);
+    border-radius:5px;
+    margin-left: 5px;
+    font-size: xxx-large;
+}
+
+.ouazizi-brand .ouazizi-logo .small-text {
+    color: rgba(255, 166, 0, 0.8);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+.ouazizi-brand .social-media {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.ouazizi-brand .social-media a {
+margin-left: 5%;
+}
+
+.line {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+}
+
+.footer-information {
+    display: grid;
+    gap: 10%;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+}
+
+
+
+
+
+.footer-hs {
+    color:rgba(255, 166, 0, 0.806);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .under-line {
+    color: rgb(255, 0, 0);
+    width: 100px;
+    margin-left: 0%;
+   
+}
+
+.about-description p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgba(240, 248, 255, 0.693);
+}
+
+
+.usefull-links {
+    text-align: start;
+}
+.usefull-links ul {
+    display: inline-block;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+.usefull-links ul li  {
+    padding: 5px;
+   
+   
+}
+
+.usefull-links ul li a {
+    color: rgba(240, 248, 255, 0.825);
+    font-size: medium;
+    
+}
+
+.usefull-links ul li a:hover {
+    color: rgb(43, 43, 109);
+}
+
+
+
+.information .information-element div {
+    margin-top:  20px;
+    margin-bottom:  15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+
+    margin-top: 150px;
+    text-align: center;
+    color: rgba(240, 248, 255, 0.849);
+}
