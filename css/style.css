@@ -95,12 +95,30 @@ li {
     border-radius: 10px;
 }
 
+.side-bare ul li {
+    margin-bottom: 30px;
+}
+
+.side-bare ul li a {
+    padding: 10px;
+}
+
 
 .dash-title {
     color: #222867;
     font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 50px;
 }
+
+.home-page {
+    background-color: #cdd5e0;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: -10px;
+    border-bottom-left-radius: 10px;
+}
+
 
 
 
