@@ -95,6 +95,20 @@
         font-size: small;
     } 
 
+    .side-bare {
+        width: 80px;
+    }
+
+    .side-bare  h2 {
+        font-size: small;
+    }
+    .side-bare ul li {
+        margin-left: -10px;
+    }
+    .side-bare ul li a span {
+        display: none;
+    }
+
 }
 
 
