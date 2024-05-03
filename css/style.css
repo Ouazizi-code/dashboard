@@ -224,7 +224,7 @@ background-color:#cbd5e1;
 
 .wrapper   {
     margin: 15px;
-    margin-top: 80px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
     gap: 20px;
@@ -234,6 +234,22 @@ background-color:#cbd5e1;
 .wrapper  div {
     background-color: #e5eaf0;
     border-radius: 10px;
+}
+
+.wrapper .widget {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper .widget div {
+    display: block;
+}
+
+.profile {
+    text-align: center;
+    background-color: #222867;
+    display: inline-block;
+   
 }
 
 
