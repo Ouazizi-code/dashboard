@@ -10,6 +10,8 @@ html {
 
 body {
     background-color: #0f172a;
+    margin: 0%;
+    padding: 0%;
     
 }
 
@@ -39,6 +41,7 @@ li {
 
 
 /* start styling the header */
+
 .header {
     display: flex;
     align-content: center;
@@ -301,6 +304,7 @@ background-color:#cbd5e1;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
     gap: 20px;
+    
     
 }
 
