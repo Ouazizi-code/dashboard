@@ -222,6 +222,10 @@
 }
 
 /* usefull flex */
+.d-hide{
+    display: none;
+}
+
 
 .d-flex {
     display: flex;
@@ -244,7 +248,7 @@
     justify-content: start;
 }
 
-.d-flex-s-b {
+.d-flex-s-b:not(:last-child) {
     display: flex;
     align-items: center;
     justify-content: space-between;

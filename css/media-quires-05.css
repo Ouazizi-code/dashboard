@@ -31,11 +31,33 @@
         gap: 10px;
     }
 
+    /* it a fonts siae for small devices*/
+    .f-s-s {
+        font-size: small;
+    }
+    
+    .f-s-2s {
+        font-size: smaller;
+    }
+    
+    .f-s-xs {
+        font-size: x-small;
+    }
+    
+    .f-s-xxs {
+        font-size: xx-small;
+    }
+
     
     /* end  the global rules for each media quiries */
   }
+
+
 /* x-Small devices (landscape phones, 576px and up)*/
-@media (min-width: 375px ) and (max-width:576px) { 
+@media (min-width: 375px ) and (max-width:576px) {
+    
+    
+
     /* start  the global rules for each media quiries */
     .container { /* this container hold all content in the body */
         margin: auto;
@@ -70,8 +92,14 @@
 
     /* end  the global rules for each media quiries */
  }
+
+
+
+
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px ) { 
+@media (min-width: 576px ) {
+    
+    
     /* start  the global rules for each media quiries */
     .container { /* this container hold all content in the body */
         margin: auto;
@@ -87,29 +115,40 @@
         gap: 15px;
     }
 
-    /* it a fonts siae for small devices*/
-    .f-s-s {
-        font-size: small;
+    
+
+     /* it a fonts siae for large devices*/
+
+    .f-s-l {
+        font-size: large;
     }
     
-    .f-s-2s {
-        font-size: smaller;
+    .f-s-2l {
+        font-size: larger;
     }
     
-    .f-s-xs {
-        font-size: x-small;
+    .f-s-xl {
+        font-size: x-large;
     }
     
-    .f-s-xxs {
-        font-size: xx-small;
+    .f-s-xxl {
+        font-size: xx-large;
     }
+
+    
     /* end  the global rules for each media quiries */
  }
 
+
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
+
+
     /* this shoud be the navigation bar beakpoint*/
     /* start  the global rules for each media quiries */
+
+
     .container { /* this container hold all content in the body */
         margin: auto;
         /*background-color: antiquewhite;*/
@@ -118,6 +157,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    
+
+
+    /* end part for top navigation bar */
     .d-grid-medium { /* its a class*/
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
@@ -143,6 +187,9 @@
     }
     /* end  the global rules for each media quiries */
  }
+
+
+
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 

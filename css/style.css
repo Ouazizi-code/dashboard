@@ -47,41 +47,107 @@ li {
     /*background-color: antiquewhite;*/
 }
 
-.logo {
-    /*background-color: aqua;*/
-    padding-left: 5%;
+
+
+.new-header {
     display: flex;
     align-items: center;
-    width: 30%;
-    text-align: start;
-    color: rgb(192, 133, 85);
+}
+
+
+.new-logo {
+    display: flex;
+    align-items: center;
+    width: 20%;
+
+}
+
+.new-logo .big-o {
     font-size: xx-large;
+    font-weight: bolder;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    padding: 0px 5px;
+    background-color: #cbd5e1;
+    border-radius: 5px;
+    color: rgb(175, 102, 1);
 }
 
-.links {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.new-logo .small-text {
+    color: rgba(238, 118, 75, 0.932);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.new-links {
+    position: absolute;
+    right: 0;
     width: 70%;
-    
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.links a{
-    color: #ffffffdf;
-    font-size: large;
+.new-links a {
+    display: flex;
+    color: #cbd5e1c8;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 
-.btn {
-    /*display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 10%;
-    background-color: blue;*/
+.new-links a:hover {
+    background-color: #96abc9;
+    padding: 5px 10px 5px 10px ;
+    color: #3c3c3c;
+    border-radius: 10px;
+}
+
+.burger { /* this for hide the burger menu on large devices*/
     display: none;
 }
+
+
+/* this is the maximum with in small devices (ipad mini) for top headers*/
+@media (max-width: 768px){
+    /* start styling the header on small devices*/
+    .new-links {
+        display: none;
+    }
+
+    .show-links { /* this class we will use it ba js */
+        display: block;
+        position: absolute;
+        margin-top: 250px;
+        width: calc(100% - 25px);
+        margin-left:  10px;
+        margin-right: 10px;
+        text-align: center;
+        background-color: #96abc9;
+    }
+    
+    
+    .new-links a {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #3c3c3c;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    .burger {
+        display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 3%;
+    }
+    
+    .burger a i {
+        font-size: larger;
+        color: #cbd5e1;
+    }
+}
+/* end the styling header*/
+
+
 
 
 /* start styling the content section */
@@ -413,20 +479,13 @@ margin-left: 5%;
     margin-bottom:  15px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .copyright {
 
     margin-top: 150px;
     text-align: center;
     color: rgba(240, 248, 255, 0.849);
 }
+
+
+
+
