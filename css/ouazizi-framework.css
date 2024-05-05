@@ -14,7 +14,8 @@
 }
 
 .bg-mine {
-    background-color: #0f172a;
+    background-color: #0f172abc;
+    color: aliceblue;
 }
 
 .bg-gry {
@@ -110,11 +111,11 @@
 }
 
 .mrjn-l-r-10 {
-    margin: 5px;
+    margin: 0px 10px;
 }
 
 .mrjn-l-r-15 {
-    margin: 5px;
+    margin: 0px 15px;
 }
 
 .mrjnb-5 {
@@ -158,6 +159,14 @@
 
 .w-full {
     width: 100%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-50 {
+    width: 50%;
 }
 
 .w-fit-c {
@@ -265,15 +274,15 @@
     align-items: center;
     justify-content: space-around;
 }
-.d-block {
+.d-bk {
     display: block;
 }
 
-.d-inline {
+.d-in {
     display: inline;
 }
 
-.d-i-b {
+.d-i-bk {
     display: inline-block;
 }
 /* usefull fonts */
