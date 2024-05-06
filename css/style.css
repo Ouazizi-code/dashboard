@@ -248,6 +248,54 @@ li {
 }
 
 
+.yearly-target .target-row .icon {
+    color: #4884ea;
+    padding: 15px;
+    background-color: skyblue;
+    margin-right: 5px;
+}
+
+.yearly-target .details {
+    width: 100%;
+}
+.yearly-target .details .progress {
+    width: 80%;
+    background-color: skyblue;
+    height: 4px;
+}
+
+.yearly-target .details .progress > span  {
+    position: absolute;
+    background-color: blue;
+    height: 4px;
+    border-radius: 5px;
+}
+
+
+.yearly-target .details .progress > span span  {
+    position: absolute;
+    right: -10px;
+    top: -16px;
+    background-color: blue;
+    color: wheat;
+    padding: 2px 5px;
+    font-size: 8px;
+    border-radius: 3px;
+}
+
+.yearly-target .details .progress > span span::after  {
+    content: '';
+    border-color: transparent;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    bottom: -8px;
+    border-top-color: blue;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 
 
 

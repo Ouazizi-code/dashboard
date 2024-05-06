@@ -30,6 +30,10 @@
     color: aliceblue;
 }
 
+.bg-blue {
+    background-color: rgba(38, 38, 214, 0.834);
+}
+
 /*======= usefull sizes ======*/
 .size-30 {
     width: 30px;
@@ -353,6 +357,14 @@
 
 .d-i-bk {
     display: inline-block;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
 }
 
 
