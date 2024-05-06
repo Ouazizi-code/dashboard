@@ -22,14 +22,32 @@
         font-size: large;
     }
 
+    .h1-s-for-sm {
+        font-size: medium;
+    }
+
+    
+
     h2 {
         
         font-size: medium;
     }
 
+    .h2-s-for-sm {
+        font-size:small ;
+    }
+
+    
+
     p,span {
         font-size: xx-small;
     }
+
+    .p-s-for-sm {
+        font-size: xxx-small;
+    }
+
+    
 
     /* end global rules */
  }
@@ -54,13 +72,25 @@
         font-size: x-large;
     }
 
+    .h1-s-for-m {
+        font-size: large;
+    }
+
     h2 {
        
         font-size: large;
     }
 
+    .h2-s-for-m {
+        font-size: medium;
+    }
+
     p,span {
         font-size: small;
+    }
+
+    .p-s-for-m {
+        font-size: xx-small;
     }
 
     /* end global rules */
