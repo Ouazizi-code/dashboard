@@ -178,6 +178,7 @@ li {
 .dashboard .content {
     color: #0f172a;
     width: 85%;
+    overflow-y: scroll;
 }
 
 .dashboard .content .top-header {
@@ -211,6 +212,39 @@ li {
     margin-top: 35px;
     text-decoration-line: underline;
     text-underline-offset: 5px;
+}
+
+
+
+.widget .profile {
+    margin-top: 15%;
+    margin-left: 2%;
+    text-align: center;
+    background-color: lightsalmon;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.widget .profile:hover {
+    transition: 0.5s;
+    background-color: rgb(174, 157, 186);
+    
+}
+
+.draft .profile {
+    margin-top: 15%;
+    margin-left: 2%;
+    text-align: center;
+    background-color: lightsalmon;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.draft .profile:hover {
+    transition: 0.5s;
+    background-color: rgb(174, 157, 186);
+    
 }
 
 
