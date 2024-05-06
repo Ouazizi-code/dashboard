@@ -205,6 +205,16 @@ li {
     margin-right: 5%;
 }
 
+.dashboard .content .dashboard-title {
+    color: lightgray;
+    font-family: sans-serif;
+    margin-top: 35px;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+}
+
+
+
 
 
 
@@ -221,10 +231,25 @@ li {
     .dashboard .side-bar ul{
         text-align: center;
         margin-left: -80%;
+        margin-top: 90px;
+    }
+
+    .dashboard .side-bar ul li{
+        margin-top: 30px;
+    }
+
+    .dashboard .side-bar ul li a i {
+        font-size: large;
     }
 
     .dashboard .side-bar ul li span {
         display: none;
+    }
+
+
+    .dashboard .content .top-header {
+        margin: 3%;
+        height: 40px;
     }
 
     .dashboard .content .top-header input {

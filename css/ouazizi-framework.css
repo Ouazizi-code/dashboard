@@ -35,6 +35,37 @@
     height: 30px;
 }
 
+.size-40 {
+    width: 40px;
+    height: 40px;
+}
+
+
+.size-50 {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.size-60 {
+    width: 60px;
+    height: 60px;
+}
+
+
+
+.size-70 {
+    width: 70px;
+    height: 70px;
+}
+
+
+.size-80 {
+    width: 80px;
+    height: 80px;
+}
+
 
 
 /*======== usefull padings ========*/
@@ -323,6 +354,10 @@
 
 .txt-c {
     text-align: center;
+}
+
+.txt-end {
+    text-align: end;
 }
 .f-f {
     font-family: Arial, Helvetica, sans-serif;

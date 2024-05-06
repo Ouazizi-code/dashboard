@@ -13,7 +13,7 @@
 
     .d-grid-xxs {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(180px,1fr));
         gap: 10px;
     }
 
@@ -45,7 +45,7 @@
 
     .d-grid-xs {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(220px,1fr));
         gap: 10px;
     }
 
@@ -78,9 +78,9 @@
         padding-right: 15px;
     }
 
-    .d-grid-l {
+    .d-grid-large {
         display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(450px,1fr));
+        grid-template-columns: repeat(auto-fill, minmax(290px,1fr));
         gap: 20px;
     }
     
