@@ -4,6 +4,28 @@
 
 
 /*======= usefull  colors ==========*/
+.c-black {
+    color: rgba(0, 0, 0, 0.851);
+}
+
+.c-blue {
+    color: rgba(0, 0, 255, 0.752);
+}
+
+.c-red {
+    color: rgba(255, 0, 0, 0.862);
+}
+
+.c-white {
+    color :white
+}
+
+.c-gray {
+    color: gray;
+}
+.c-green {
+    color: green;
+}
 
 .bg-eee {
     background-color: #eee;
@@ -155,6 +177,10 @@
 
 .mt-15 {
     margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .m-l-r-5 {
