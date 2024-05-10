@@ -305,6 +305,36 @@ li {
     transform: translateX(-50%);
 }
 
+.tasks {
+
+}
+
+.tasks div {
+    padding-left: 20%;
+    position: relative;
+    border-bottom-color: #24b7a8;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+
+.tasks div::after {
+    content: '';
+}
+
+.tasks div::before {
+    content: '';
+    border-color: #3759cb;
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50%;
+    left: 20px;
+    top: 5px;
+    background-color: cornflowerblue;
+}
+
 
 
 

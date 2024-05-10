@@ -56,6 +56,10 @@
     background-color: rgba(38, 38, 214, 0.834);
 }
 
+.bg-green {
+    background-color: green;
+}
+
 /*======= usefull sizes ======*/
 .size-30 {
     width: 30px;
