@@ -306,7 +306,7 @@ li {
 }
 
 .tasks {
-
+    content: '';
 }
 
 .tasks div {
@@ -336,6 +336,9 @@ li {
 }
 
 
+.learn-display {
+    display: contents;
+}
 
 
 
